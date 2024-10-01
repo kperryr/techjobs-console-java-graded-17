@@ -92,7 +92,6 @@ public class JobData {
         // load data, if not already loaded
         loadData();
 
-        // TODO - implement this method
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
 
         for (HashMap<String, String> row : allJobs) {

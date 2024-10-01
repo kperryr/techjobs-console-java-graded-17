@@ -127,6 +127,7 @@ public class TechJobs {
             for (HashMap<String, String> job : someJobs) {
                 System.out.println("\n*****");
                 System.out.println("position type: " + job.get("position type"));
+
                 for (Map.Entry<String, String> entry : job.entrySet()) {
                     if (!entry.getKey().equals("position type")) {
                         System.out.println(entry.getKey() + ": " + entry.getValue());
